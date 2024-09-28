@@ -1,0 +1,7 @@
+Alternative Option: Force Push (Not Recommended)
+If you are sure that your local changes should overwrite the remote changes and you do not want to merge, you can force push (though be careful as this will overwrite any remote changes):
+
+bash
+Copy code
+git push --force origin master
+However, this is not recommended unless you're sure it won’t affect other collaborators or the remote repository's history.
